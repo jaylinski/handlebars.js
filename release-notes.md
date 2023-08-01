@@ -2,7 +2,38 @@
 
 ## Development
 
-[Commits](https://github.com/handlebars-lang/handlebars.js/compare/v4.7.7...master)
+[Commits](https://github.com/jaylinski/handlebars.js/compare/v4.7.8...master)
+
+## v4.7.8 - August 1st, 2023
+- Release test - 7c076e9
+- Fix browser tests in CI pipeline - 668c4fb
+- Test on Node 18 - c65c6cc
+- Make library compatible with workers - 3d3796c
+- Fix sync issue with npm lock-file - 075b354
+- Fix compiling of each block params in strict mode - 30dbf04
+- Fix bundler issue with webpack 5 - e3a5448
+- Fix integration-tests issue with npm >= 7 - 8e23642
+- use https instead of git for mustache submodule - 88ac068
+- Fix typo - c68bc08
+- Use eslint-env "shared-node-browser" for shared handlebars code - 6cfbc26
+- Replace shields.io with faster badgen.net - b65135a
+- Don't create security alerts for dev-dependencies - e2f63da
+- Replace custom test-server with Grunt connect - 78e7e28
+- Fix rollup warning when importing Handlebars as ESM - 03d387b
+- Add integration-tests to CI workflow - e0f50b4
+- Replace Saucelabs with Playwright - 9ed9418
+- Move `print-script.js`-file in `tests`-folder - ef0fc29
+- Move `integration-testing`-folder in `tests`-folder - edc65b5
+- Remove redundant `task`-part in `task-tests`-folder - 715f4af
+- Move `bench`-folder in `tests`-folder - 3bd0fa8
+- Update repository URL - c295ef0
+- Update contributing guidelines - c1ad3c8
+- Run CI tests on more versions - af92e32
+- Don't rely on Node.js `global` object - 2954e7e
+- Replace Travis CI with GitHub action (#1772) - 8eefee5
+- Fix Mustache links - fd93073
+
+[Commits](https://github.com/handlebars-lang/handlebars.js/compare/v4.7.7...v4.7.8)
 
 ## v4.7.7 - February 15th, 2021
 
