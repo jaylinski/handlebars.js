@@ -2,7 +2,14 @@
 
 ## Development
 
-[Commits](https://github.com/jaylinski/handlebars.js/compare/v4.7.9...master)
+[Commits](https://github.com/jaylinski/handlebars.js/compare/v4.7.9-0...master)
+
+## v4.7.9-0 - March 25th, 2026
+
+Compatibility notes:
+- No changes
+
+[Commits](https://github.com/jaylinski/handlebars.js/compare/v4.7.9...v4.7.9-0)
 
 ## v4.7.9 - March 25th, 2026
 - Fix release script - 16a021e
