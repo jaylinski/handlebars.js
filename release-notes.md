@@ -2,7 +2,31 @@
 
 ## Development
 
-[Commits](https://github.com/handlebars-lang/handlebars.js/compare/v4.7.8...master)
+[Commits](https://github.com/jaylinski/handlebars.js/compare/v4.7.9...master)
+
+## v4.7.9 - March 25th, 2026
+- Fix release script - 16a021e
+- Revert "Improve partial indenting performance" - 45443b4
+- Fix CI errors with linting - 8841a5f
+- fix: enable shell mode for spawn to resolve Windows EINVAL issue - e0137c2
+- Improve rendering performance - e914d60
+- Upgrade GitHub Actions checkout and setup-node on 4.x branch - 7de4b41
+- Fix type "RuntimeOptions" also accepting string partials - eab1d14
+- feat(types): set `hash` to be a `Record<string, any>` - de4414d
+- Improve partial indenting performance - 08fddee
+- Fix non-contiguous program indices - 4512766
+- refactor: rename i to startPartIndex - e497a35
+- update package-lock.json to correct version - 8c9f866
+- Fix links in README - 520e1d5
+- Fix link to homepage - 0242378
+- Backport: publish latest and tags to AWS S3 - be92d2f
+- Add guideline for pushing to RubyGems - 443a613
+- add links to publish requirements - 83ee590
+- v4.7.8 - 8dc3d25
+- v4.7.8 - 206fe99
+- Update release notes - 4d41545
+
+[Commits](https://github.com/handlebars-lang/handlebars.js/compare/v4.7.8...v4.7.9)
 
 ## v4.7.8 - July 27th, 2023
 
